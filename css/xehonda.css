@@ -1,0 +1,208 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    padding: 0 50px;
+}
+
+.logo img {
+    width: 180px;
+}
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    flex: 1;
+    margin-left: 30px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #e60000;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #000;
+}
+
+.search-bar {
+    position: relative;
+    width: 30%;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.contact {
+    font-size: 18px;
+    color: #e60000;
+}
+
+
+/* Main Content Styles */
+main {
+    padding: 20px;
+}
+
+.filter, .categories {
+    margin-bottom: 20px;
+}
+
+.bike-list {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bike-item {
+    background-color: #f0f0f0;
+    padding: 15px;
+    margin: 10px;
+    width: 30%;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.bike-item img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.bike-item h3 {
+    margin-top: 10px;
+}
+
+button {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+footer {
+    background-color: #00274d;
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.company-info {
+    width: 30%;
+}
+
+.company-info h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.company-info p {
+    margin: 5px 0;
+}
+
+.company-info a {
+    color: white;
+    text-decoration: none;
+}
+
+.company-info a:hover {
+    text-decoration: underline;
+}
+
+.footer-policies {
+    width: 30%;
+}
+
+.footer-policies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-policies li {
+    margin-bottom: 5px;
+}
+
+.footer-policies a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-policies a:hover {
+    text-decoration: underline;
+}
+
+.footer-hours {
+    width: 30%;
+}
+
+.footer-hours p {
+    margin: 5px 0;
+}
+
+.footer-certifications img {
+    width: 100px;
+    margin-right: 10px;
+}
+
+.footer-certifications {
+    margin-top: 10px;
+}
+
+.copyright {
+    text-align: center;
+    background-color: #001f3f;
+    padding: 10px;
+    margin-top: 20px;
+}
